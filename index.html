@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Vithor Camara</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Landing Page">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="vithorcamara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body style="overflow-x: hidden;">
+  
+  <section id="bemvindo">
+    <header id="header">
+      <a id="LOGO" href="#header">Vithor Camara</a>
+      <ul class="nav-menu">
+        <li class="menu_li"><a href="#portfolio" class="menu_link">Portfólio</a></li>
+        <li class="menu_li"><a href="#bottom_section" class="menu_link"><div id="botao_menu">Conversa comigo</div></a></li>
+      </ul>
+    </header>
+    <div style="height: 90vh">
+      
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="portfolio">
+      <div class="portfolio_info">Portfólio</div>
+      <!-- Slideshow container -->
+      <div class="carrossel">
+        <div class="slide">
+          <div class="slide_items">
+            <p style="width: 50vw;">3D Modeling - Bulls' F1 Miniature</p>
+            <img src="./imgs/ROG Wallpaper Design.jpg">
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="slide_items">
+            <p style="width: 50vw;">Web Programming - Landing Page</p>
+            <img src="./imgs/Cyber Punk Portfolio.jpg">
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="slide_items">
+            <p style="width: 50vw;">Graphic Design - Mad Dogz Gaming</p>
+            <img src="./imgs/Cyber Punk Footer.jpg">
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="slide_items">
+            <p style="width: 50vw;">Information Design - PrintF Cloud Computing Article</p>
+            <img src="./imgs/Tron-Green.jpg">
+          </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <div id="prev" onclick=""><a class="prev">&#10094;</a></div>
+        <div id="next" onclick=""><a class="next">&#10095;</a></div>
+      </div>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="bottom_section">
+    <div class="contatos">
+      <div class="contatos_info">
+        <p id="contatos_titulo">Contate-me</p>
+        <p style="text-align: center; color: #de004e;">
+        Se você quiser mandar alguma demanda detalhada, por 
+        favor preencha o formulário. Enviarei uma resposta o 
+        mais rápido possível.</p>
+      </div>
+      <div class="contatos_coluna">
+        <div class="contatos-form">
+          <label class="contatos-form-label">Nome</label>
+          <input class="form-info" type="text" id="form-nome" placeholder="Nome">
+        </div>
+        <div class="contatos-form">
+          <label class="contatos-form-label">E-mail</label>
+          <input class="form-info" type="text" id="form-email" placeholder="E-mail">
+        </div>
+        <div class="contatos-form">
+          <label class="contatos-form-label">Empresa</label>
+          <input class="form-info" type="text" id="form-empresa" placeholder="Empresa">
+        </div>
+        <div class="contatos-form">
+          <label class="contatos-form-label">Cargo</label>
+          <input class="form-info" type="text" id="form-cargo" placeholder="Cargo">
+        </div>
+        <div class="contatos-form">
+          <label class="contatos-form-label">Deixe aqui uma mensagem</label>
+          <input class="form-info-s" type="text" id="form-mensagem" placeholder="Deixe aqui uma mensagem">
+        </div>
+        <div class="contatos-form">
+          <p style="color: white; font-size: 1.5vh;">Ao clicar em enviar, vocês concorda com nossos termos.</p>
+          <input id="button-submit" class="form-info" type="submit">
+        </div>
+      </div>  
+    </div>
+  <footer>
+    <div class="footer_icones">
+      <div class="footer_icones-social">
+        <a href=""><img id="icone_wpp" src="./imgs/Icon-wpp-white.png"></a>
+        <a href=""><img id="icone_insta" src="./imgs/Icon-insta-white.png"></a>
+        <a href=""><img id="icone_msg" src="./imgs/Icon-msg-white.png"></a>
+        <a href=""><img id="icone_linkedin" src="./imgs/Icon-linkedin-white.png"></a>
+      </div>
+    </div>
+    <div class="footer_fim">
+      <p style="color: white;">Recife</p>
+      <p style="color: white;">Direitos reservados a @vithorcamara</p>
+      <p style="color: white;">Brasil</p>
+    </div>
+  </footer>
+  </section> 
+  <script src="./js/icones.js" type="module"></script>
+  <script src="./js/slider.js" type="module"></script>
+
+</body>
+</html>

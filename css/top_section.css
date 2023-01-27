@@ -1,0 +1,84 @@
+#bemvindo{
+    background-image: url('../imgs/ROG\ Wallpaper\ Design.jpg');
+    background-repeat:no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center;
+}
+
+header{
+    top: 0;
+    margin: auto;
+    background-color: rgb(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: auto;
+    text-align: center;
+}
+
+a{text-decoration: none;}
+
+#LOGO{
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    color: #de004e;
+    margin: auto;
+}
+#LOGO:hover{
+    color: #f887ff;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    font-size: 2.5vh;
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    justify-content: space-around;
+    align-self: center;
+}
+
+#botao_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #de004e;
+    border-radius: 1vw;
+    height: 5vh;
+    width: 20vw;
+}
+
+#botao_menu:hover{
+    color: #321450;
+    background-color: #f887ff;
+    cursor: pointer;
+}
+
+.menu_link {
+    color: white;
+    margin: 0vh 1.5vw;
+    text-decoration: none;
+    width: auto;
+}
+
+.menu_link:hover{
+    color: #f887ff
+}
+
+.menu_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.bemvindo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}

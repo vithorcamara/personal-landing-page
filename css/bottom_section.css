@@ -1,0 +1,114 @@
+#bottom_section{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../imgs/Cyber\ Punk\ Footer.jpg');
+    background-repeat:no-repeat;
+    background-size: 100vw auto;
+    background-position: center;
+}
+
+.contatos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0vh 2.5vw 0vh;
+    height: 65vh;
+    width: auto;
+    background-color: rgb(0, 0, 0, 0.75);
+}
+
+.contatos_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin: 0vh 10vw;
+}
+
+#contatos_titulo{font-size: 5vw;color: white;}
+
+.contatos_coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+    width: 40vw;
+}
+
+.contatos-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 1vh 0vw;
+}
+.contatos-form-label{color:white;}
+
+.form-info-s{height: 10vh;}
+
+#button-submit{
+    height: 5vh;
+    color: white;
+    border-radius: 10vw;
+    background-color: #de004e;
+}
+
+#button-submit:hover{
+    color: #29132e;
+    background-color: #f887ff;
+    cursor: pointer;
+}
+
+
+footer{
+    height: auto;
+    width: auto;
+}
+
+.footer_icones{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    height: 20vh;
+    padding: 0vh 5vw 0vh;
+}
+
+.footer_icones-social{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    align-items: center;
+}
+.footer_icones-social > a > img{height: 7.5vh; margin: 0vh 0.25vw 0vh;}
+
+#icone_wpp:hover{
+    cursor: pointer;
+    border-radius: 100%;
+    border: 0.1vw solid white;
+    background-color: #1afe49;
+}
+#icone_insta:hover{
+    cursor: pointer;
+    border-radius: 100%;
+    border: 0.1vw solid white;
+    background-color: purple;
+}#icone_msg:hover{
+    cursor: pointer;
+    border-radius: 100%;
+    border: 0.1vw solid white;
+    background-color: red;
+}#icone_linkedin:hover{
+    cursor: pointer;
+    border-radius: 100%;
+    border: 0.1vw solid white;
+    background-color: #3d43b4;
+}
+
+.footer_fim{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    bottom: 0;
+    padding: 0vh 5vw 1vh;
+    height: 14vh;
+}
